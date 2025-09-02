@@ -30,7 +30,6 @@ class CasinoGame extends StatefulWidget {
 class _CasinoGameState extends State<CasinoGame> {
   late final AudioPlayer _player;
 
-  // Example game state
   List<String> _playerCards = [];
   List<String> _tableCards = ['A♠', 'K♣', '5♦', '7♥'];
 
