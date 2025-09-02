@@ -1,51 +1,40 @@
 name: haitian_casino_flutter
 description: "A simple Haitian Casino card game with animations and sounds"
 
-# The following line prevents the package from being accidentally published to
-# pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+# Prevent accidental publishing
+publish_to: 'none'
 
-# Version number for your application
+# Version number
 version: 1.0.0+1
 
 environment:
   sdk: '>=3.8.0 <4.0.0'
 
-# Dependencies specify other packages that your package needs in order to work.
+# Dependencies required by the app
 dependencies:
   flutter:
     sdk: flutter
 
-  # Cupertino icons for iOS style icons
+  # iOS-style icons
   cupertino_icons: ^1.0.8
 
-  # Audio player package for playing sounds
+  # Audio player for sounds
   audioplayers: ^5.2.1
 
-# Dev dependencies are only used during development and testing
+# Development dependencies
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  # Recommended lints for good coding practices
+  # Latest recommended lints
   flutter_lints: ^6.0.0
 
 # Flutter-specific settings
 flutter:
 
-  # Enables Material Icons
+  # Include Material Icons
   uses-material-design: true
 
-  # Assets to include in the app (make sure this folder exists)
+  # Assets to include
   assets:
     - assets/sounds/
-
-  # Example of adding images or fonts if needed
-  # assets:
-  #   - assets/images/
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
