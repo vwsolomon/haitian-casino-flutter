@@ -1,9 +1,9 @@
 name: haitian_casino_flutter
-description: A simple Haitian Casino card game with animations and sounds
+description: "A simple Haitian Casino card game with animations and sounds"
 
 # The following line prevents the package from being accidentally published to
-# pub.dev using `flutter pub publish`.
-publish_to: 'none' # Remove this line if you want to publish to pub.dev
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 # Version number for your application
 version: 1.0.0+1
@@ -26,6 +26,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  # Recommended lints for good coding practices
   flutter_lints: ^6.0.0
 
 # Flutter-specific settings
